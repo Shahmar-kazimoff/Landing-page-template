@@ -1,0 +1,262 @@
+/* Bacardigim qeder responsivliye de fikir vermisem */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-top: 6px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.nav1-part1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.nav1-part1-text {
+    float: left;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav1-part2 {
+    display: inline-block;
+    width: max-content;
+}
+
+.logo-desktop {
+    background-color: #D3D4D6;
+    color: #7A7E84;
+    border-radius: 50%;
+    padding: 7px;
+    width: 33px;
+    height: 33px;
+}
+
+.logo-tablet {
+    width: 17px;
+    height: 17px;
+    margin-left: 20px;
+    vertical-align: 10px;
+}
+
+.logo-mobile {
+    width: 17px;
+    height: 17px;
+    margin-left: 20px;
+    vertical-align: 10px;
+
+}
+
+.nav1-part3 {
+    float: right;
+    margin-right: 30px;
+}
+
+.nav1-part3-logo {
+    display: inline-block;
+    vertical-align: -10px;
+}
+
+.nav1-part3-logo :hover {
+    background-color: lightgrey
+}
+
+.nav1-part3-logo-main {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.nav1-part3-button {
+    background-color: #F0E3E7;
+    margin-left: 10px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+    color: #DC392D;
+    border: none;
+    border-radius: 5px;
+}
+
+hr {
+    height: 2px;
+    background-color: red;
+    border: none;
+    margin: 10px 0;
+}
+
+.nav-first {
+    display: inline-block;
+    padding-right: 1000px;
+}
+
+.nav-second {
+    display: inline-block;
+}
+
+.nav-text {
+    font-size: 22px;
+}
+
+.button {
+    background-color: #0D6EFD;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.section-first {
+    text-align: center;
+    padding-top: 200px;
+    height: 600px;
+    background-image: url(./images/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-first-text {
+    font-size: 50px;
+    margin: auto;
+    width: 600px;
+    color: white;
+}
+
+.input {
+    width: 495px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+.submit-button {
+    background-color: #266DD3;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 23px 26px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.section-second {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section-second-part {
+    display: inline-block;
+    width: 450px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 13px;
+}
+
+.section-third {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.section-third-image {
+    width: 49%;
+    height: 450px;
+    vertical-align: middle;
+}
+
+
+.section-third-text {
+    width: 48.8%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.section-fourth {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.section-fourth-cards {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.section-fourth-card {
+    display: inline-block;
+}
+
+.section-fourth-image {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 100px;
+}
+
+.section-fifth {
+    text-align: center;
+    padding-top: 80px;
+    height: 300px;
+    background-image: url(./images/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-fifth-text {
+    font-size: 35px;
+    margin: auto;
+    width: 600px;
+    color: white;
+}
+
+.footer {
+    padding: 60px 150px;
+}
+
+li {
+    padding-right: 15px;
+    display: inline-block;
+    color: #0D6EFD;
+}
+
+li a {
+    color: #0D6EFD;
+}
+
+.footer-first-part {
+    display: inline-block;
+}
+
+.social-links {
+    float: right;
+    margin-right: 10px;
+}
